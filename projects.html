@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+</head>
+<body>
+
+<div class="content">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <h1>Projects</h1>
+    <p>Here are all of my projects in my
+        <a href="https://github.com/sneakwolf777">Github Account</a>
+    </p>
+    <h3>Smart Search</h3>
+    <a href="https://github.com/sneakwolf777/smart-search">Smart Search</a>
+    <h3>Quick Sort</h3>
+    <a href="https://github.com/sneakwolf777/partition-quick-sort">Quicksort</a>
+    <h3>Android Appointments</h3>
+    <a href="https://github.com/sneakwolf777/PortlandStateJavaSummer2019">Android Appointment</a>
+    <h3>ChocAn</h3>
+    <a href="https://github.com/Gilmore-PDX-CS/Team9">ChocAn</a>
+</div>
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+</body>
+</html>
