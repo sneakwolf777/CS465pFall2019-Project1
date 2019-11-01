@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="navbar.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="icon.css">
 </head>
 <body>
@@ -18,6 +19,22 @@
     <p>peter.d.chung@gmail.com</p>
     <h3>Mobile Phone</h3>
     <p>408-607-8044</p>
+</div>
+
+<div class="container">
+    <form action="mailto:peter.d.chung@gmail.com">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
 </div>
 
 <div id="myNav" class="overlay">
