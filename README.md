@@ -12,6 +12,7 @@ About: Description about myself such as software engineering skills, tools, and 
 Projects: Contains links to all my projects on github
 Contact: Display contact info and allows user to submit a message to my email
 
+(Note: For some reason the images I used only appears if AdBlocker is turned off)
 
 Library
 1. Utilized this bootstrap library for the social icons
